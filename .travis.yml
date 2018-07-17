@@ -3,8 +3,6 @@ branches:
   only:
   - master
 install:
-    - gem install rails
     - bundle install
 script:
-    - bundle exec rake
     - rake test:all
