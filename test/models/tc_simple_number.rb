@@ -1,4 +1,20 @@
-require_relative 'simple_number'
+class SimpleNumber
+
+  def initialize(num)
+    raise unless num.is_a?(Numeric)
+    @x = num
+  end
+
+  def add(y)
+    @x + y
+  end
+
+  def multiply(y)
+    @x * y
+  end
+
+end
+
 require 'test/unit'
 
 class TestSimpleNumber < Test::Unit::TestCase

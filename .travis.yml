@@ -7,3 +7,4 @@ install:
     - bundle install
 script:
     - bundle exec rake
+    - ruby test/models/tc_simple_number.rb
