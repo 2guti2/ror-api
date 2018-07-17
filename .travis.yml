@@ -3,4 +3,7 @@ branches:
   only:
   - master
 install:
-    gem install rails
+    - gem install rails
+    - bundle install
+script:
+    - bundle exec rake
