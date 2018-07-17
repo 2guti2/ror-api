@@ -4,5 +4,7 @@ rvm:
 install:
     gem install rails
 branches:
-  except:
+  only:
   - gh-pages
+  - /.*/
+script: bundle exec rake
