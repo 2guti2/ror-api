@@ -1,10 +1,7 @@
 language: ruby
-rvm:
-  - 2.4.3
-install:
-    gem install rails
 branches:
   only:
-  - gh-pages
-  - /.*/
+  - master
+install:
+    gem install rails
 script: bundle exec rake
