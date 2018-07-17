@@ -4,6 +4,3 @@ branches:
   - master
 install:
     gem install rails
-script: 
-    bundle install
-    bundle exec rake
