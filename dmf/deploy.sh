@@ -15,3 +15,4 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
 						else
 						    echo "Not deploying, since this branch isn't master."
 						    fi
+							
